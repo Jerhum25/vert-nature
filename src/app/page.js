@@ -3,6 +3,8 @@ import Avis from "./components/Avis";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
+import Prestas from "./components/Prestas";
+import Realisations from "./components/Realisations";
 import Services from "./components/Services";
 
 export default function Home() {
@@ -10,9 +12,10 @@ export default function Home() {
     <div className="bg-black">
       {/* <Header /> */}
       <Hero />
+      <Prestas/>
       <APropos />
       <Services />
-      {/* <Realisations/> */}
+      <Realisations/>
       <Avis/>
       <Contact />
       <Footer />

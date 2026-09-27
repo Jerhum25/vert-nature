@@ -38,7 +38,7 @@ export default function Services() {
   ];
 
   return (
-    <div className="w-full flex justify-center bg-gray-200" id="Services">
+    <div className="w-full flex justify-center bg-gray-200" id="services">
       <div className="xl:w-[90%] w-full flex lg:flex-row flex-col  text-black py-5">
         <div className="lg:w-[20%] w-full h-fit p-5 flex flex-col gap-3">
           <h2 className="uppercase flex gap-2 items-center text-[#33A266]">
@@ -65,7 +65,7 @@ export default function Services() {
                   unoptimized
                   alt={service.alt}
                   src={service.src}
-                  className="object-cover group-hover:scale-105 transition-transform duration-300 h-[50%] w-auto"
+                  className="object-cover group-hover:scale-105 transition-transform duration-300 h-full w-auto"
                 />
                 <div className="bg-white z-10 flex-1 p-2">
                   <h3 className="font-bold">{service.title}</h3>

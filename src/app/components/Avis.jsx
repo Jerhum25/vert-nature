@@ -37,7 +37,7 @@ export default function Avis() {
     },
   ];
   return (
-    <div className="w-full flex justify-center  bg-gray-200" id="Services">
+    <div className="w-full flex justify-center  bg-gray-200" id="avis">
       <div className="xl:w-[90%] w-full flex   lg:flex-row flex-col items-center text-black py-5">
         <div className="lg:w-[20%] w-full h-fit p-5 flex flex-1 flex-col gap-3">
           {" "}

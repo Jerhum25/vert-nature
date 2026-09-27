@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Header() {
   return (
     <div className="w-full flex justify-center text-white relative z-100 ">
-      <div className=" w-full h-full flex justify-between gap-3 bg-transparent pr-5 py-2">
+      <div className=" w-full h-full flex justify-between gap-3 bg-transparent px-5 py-2">
         <div className="w-auto h-auto flex items-center ">
           <Image
                     width={60}
@@ -17,7 +17,7 @@ export default function Header() {
         </div>
         <div className="  lg:flex items-center hidden absolute top-[50%] left-[50%] translate-[-50%]">
           <nav>
-            <ul className="flex gap-3 capitalize text-lg font-semibold">
+            <ul className="flex gap-3 capitalize text-md 2xl:text-lg font-semibold">
               <li>accueil</li>
               <li><a href="#apropos">à propos</a></li>
               <li><a href="#services">services</a></li>

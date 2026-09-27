@@ -56,7 +56,7 @@ export default function Contact() {
                       />
                     </svg>
                   </div>
-                  <a href="mailto:vert-nature25@gmail.com@gmail.com">
+                  <a href="mailto:vert-nature25@gmail.com">
                     vert-nature25@gmail.com
                   </a>
                 </div>

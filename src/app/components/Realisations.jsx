@@ -4,30 +4,30 @@ import Image from "next/image";
 import { useState } from "react";
 
 // Liste des projets pour simplifier le code et éviter la répétition
-const projects = [
+const realisations = [
   {
-    src: "/images/interieur.webp",
-    alt: "Rénovation électrique",
-    title: "Rénovation électrique",
-    subtitle: "Maison individuelle",
+    src: "/images/realisation1.jpg",
+    alt: "Jardin contemporain",
+    title: "Jardin contemporain",
+    subtitle: "Besançon",
   },
   {
-    src: "/images/exterieur.webp",
-    alt: "éclairage extérieur",
-    title: "éclairage extérieur",
-    subtitle: "Maison individuelle",
+    src: "/images/realisation2.jpg",
+    alt: "Terrasse en bois",
+    title: "Terrasse en bois",
+    subtitle: "Franois",
   },
   {
-    src: "/images/tableau.webp",
-    alt: "Tableau électrique",
-    title: "Tableau électrique",
-    subtitle: "Appartement",
+    src: "/images/realisation3.jpg",
+    alt: "Bassin naturel",
+    title: "Bassin naturel",
+    subtitle: "Boussière",
   },
   {
-    src: "/images/electromenager.webp",
-    alt: "Branchement électroménager",
-    title: "Branchement électroménager",
-    subtitle: "Maison individuelle",
+    src: "/images/realisation4.jpg",
+    alt: "Aménagement paysager",
+    title: "Aménagement paysager",
+    subtitle: "Thise",
   },
 ];
 
@@ -36,34 +36,37 @@ export default function Realisations() {
 
   return (
     <div className="w-full h-auto flex justify-center bg-white" id="realisations">
-      <div className="xl:w-[70%] w-full flex flex-col  text-black px-5 py-10">
-        <div className="flex flex-col gap-3">
-          <h2 className="uppercase flex gap-2 items-center">
-            <div className="h-1 w-10 bg-[#fcbd00]"></div> nos réalisations
-          </h2>{" "}
+      <div className="xl:w-[90%] w-full flex lg:flex-row flex-col  text-black py-5">
+        <div className="lg:w-[20%] w-full h-fit p-5 flex flex-col gap-3">
+          <h2 className="uppercase flex gap-2 items-center text-[#33A266]">
+             nos réalisations
+          </h2>
           <h3 className="text-3xl font-bold">
-            Quelques exemples de nos chantiers
+            Ils nous ont fait confiance
           </h3>
+          <p>
+            Découvrez quelques unes de nos réalisations afin de vous en inspirer pour votre propre projet.
+          </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 w-full gap-8 pt-8">
-          {projects.map((project, index) => (
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 w-full flex-1 gap-8 pt-8 lg:w-[70%] p-5 2xl:pr-0">
+          {realisations.map((realisation, index) => (
             <div key={index} className="flex flex-col gap-3 w-full sm:w-full">
               <div
                 className="w-auto h-44 relative cursor-pointer overflow-hidden rounded-lg group"
-                onClick={() => setSelectedImage(project)}
+                onClick={() => setSelectedImage(realisation)}
               >
                 <Image
                   fill
                   unoptimized
-                  alt={project.alt}
-                  src={project.src}
+                  alt={realisation.alt}
+                  src={realisation.src}
                   className="object-cover group-hover:scale-105 transition-transform duration-300"
                 />
               <div className="absolute bottom-0 left-0 text-white w-full p-2">
                 <div className="bg-black left-0 bottom-0 opacity-60 absolute h-full w-full"></div>
-                <p className="capitalize relative">{project.title}</p>
-                <p className="relative">{project.subtitle}</p>
+                <p className="capitalize relative">{realisation.title}</p>
+                <p className="relative flex gap-1 text-gray-300"><span><svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24"><path fill="#33A266" d="M13.413 11.413Q14 10.825 14 10t-.587-1.412T12 8t-1.412.588T10 10t.588 1.413T12 12t1.413-.587M12 19.35q3.05-2.8 4.525-5.087T18 10.2q0-2.725-1.737-4.462T12 4T7.738 5.738T6 10.2q0 1.775 1.475 4.063T12 19.35M12 22q-4.025-3.425-6.012-6.362T4 10.2q0-3.75 2.413-5.975T12 2t5.588 2.225T20 10.2q0 2.5-1.987 5.438T12 22m0-12" /></svg></span>{realisation.subtitle}</p>
               </div>
               </div>
 
