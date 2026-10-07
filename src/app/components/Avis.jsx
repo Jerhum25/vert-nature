@@ -78,13 +78,15 @@ export default function Avis() {
                   </svg>
                 </span>
               </p>
-              <div className="profile flex gap-3 items-center">
-                <div className="w-10 h-10 rounded-full overflow-hidden">
-                  <Image width={40} height={40} src={item.src} alt={item.alt} />
-                </div>
-                <div>
-                  <p className="font-bold">{item.name}</p>
-                  <p>{item.country}</p>
+              <div className="flex flex-1 items-end">
+                <div className="flex gap-3 items-center">
+                  <div className="w-10 h-10 rounded-full overflow-hidden">
+                    <Image width={40} height={40} src={item.src} alt={item.alt} />
+                  </div>
+                  <div>
+                    <p className="font-bold">{item.name}</p>
+                    <p>{item.country}</p>
+                  </div>
                 </div>
               </div>
             </div>
