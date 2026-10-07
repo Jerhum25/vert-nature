@@ -119,7 +119,7 @@ export default function Contact() {
                     </g>
                   </svg>
                 </a>
-                <a href="https://www.linkedin.com/in/" target="_blank">
+                <a href="https://www.linkedin.com" target="_blank">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="2em"

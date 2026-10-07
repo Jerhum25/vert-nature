@@ -6,7 +6,7 @@ export default function Header() {
       <div className=" w-full h-full flex justify-between gap-3 bg-transparent px-5 py-2">
         <div className="w-auto h-auto flex items-center ">
           <Image
-                    width={60}
+                    width={50}
                     height={50}
                     unoptimized
                     alt="fond hero"

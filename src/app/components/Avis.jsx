@@ -12,7 +12,7 @@ export default function Avis() {
       country: "Besançon",
     },
     {
-      src: "/images/profil5.jpg",
+      src: "/images/profil2.jpg",
       alt: "profil2",
       opinion:
         "Très professionnels, reactifs et de bons conseils. Notre jardin est magnifique!",
@@ -29,7 +29,7 @@ export default function Avis() {
     },
     {
       src: "/images/profil4.jpg",
-      alt: "profil14",
+      alt: "profil4",
       opinion:
         "Un excellent rapport qualité prix et une équipe très sympathique.",
       name: "Maxime D.",
