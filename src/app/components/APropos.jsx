@@ -28,7 +28,7 @@ export default function APropos() {
             verts.
             <br />
             <br />
-            Nous mettons noter savoir-faire et notre passion au service de vos
+            Nous mettons notre savoir-faire et notre passion au service de vos
             projets, qu'il s'agisse d'un petit jardin de ville, d'un grand
             espace paysager ou d'un aménagement extérieur sur mesure.
           </p>

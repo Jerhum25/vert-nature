@@ -25,7 +25,7 @@ export default function Hero() {
             Un extérieur à votre image
           </h3>
           <p>
-            J'aménage et j'entretien vos espaces verts pour en faire un lieu de
+            J'aménage et j'entretiens vos espaces verts pour en faire un lieu de
             vie agréable, esthétique et durable.
           </p>
           <div className="flex items-center sm:justify-start justify-center">

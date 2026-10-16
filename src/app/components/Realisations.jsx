@@ -45,7 +45,7 @@ export default function Realisations() {
             Ils nous ont fait confiance
           </h3>
           <p>
-            Découvrez quelques unes de nos réalisations afin de vous en inspirer pour votre propre projet.
+            Découvrez quelques-unes de nos réalisations afin de vous en inspirer pour votre propre projet.
           </p>
         </div>
 

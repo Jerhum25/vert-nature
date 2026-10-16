@@ -60,7 +60,7 @@ export default function Prestas(){
             <h3 className="text-sm font-bold flex flex-col">
               Aménagement extérieur
               <span className="text-xs  opacity-60 font-normal">
-                Terrasses, allées, clotures
+                Terrasses, allées, clôtures
               </span>
             </h3>{" "}
           </li>

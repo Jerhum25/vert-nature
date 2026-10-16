@@ -15,13 +15,13 @@ export default function Services() {
       src: "/images/service2.jpg",
       alt: "Entretien d'espaces verts",
       title: "Entretien d'espaces verts",
-      subtitle: "Tonte, taille, élagage,débroussaillage... pour un extérieur toujours soigné.",
+      subtitle: "Tonte, taille, élagage, débroussaillage... pour un extérieur toujours soigné.",
     },
     {
       src: "/images/service3.jpg",
       alt: "Aménagement extérieur",
       title: "Aménagement extérieur",
-      subtitle: "Terrasses, allées, clotures, massifs et murets pour valoriser votre espace.",
+      subtitle: "Terrasses, allées, clôtures, massifs et murets pour valoriser votre espace.",
     },
     {
       src: "/images/service4.jpg",
